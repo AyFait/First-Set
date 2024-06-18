@@ -1,8 +1,10 @@
 
-import random
+#import random
+from random import choice
 
 #generating a random number within a range of values
-guessNum = random.randint(2, 7)
+#guessNum = random.randint(2, 7)
+guessNum = choice(range(2,7))
 #initialising the number of guesses made 
 guessCount = 0
 #initialisng the number of available guesses
